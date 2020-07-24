@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+body {
+  font-family: 'メイリオ', 'Meiryo', sans-serif;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+}
+.big {
+    width: 400px;
+    height: 150px;    
+    border: 3px solid;
+    border-color: black;
+}
+/*-----------一段目--------------*/
+.erst {
+    height: 25%;
+    width: 100%;
+}
+.blockA {
+    background-color: red;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.blockB {
+    background-color: #00FF00;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+/*-----------二段目--------------*/
+.zweit {
+    height: 50%;
+    width: 100%;
+}
+.blockC {
+   background-color: #0000DD; 
+   display: inline-block;
+   float: left;
+   height: 100%;
+   width: 20%;
+}
+.blockD {
+    background-color: #FFFF00;
+    display: inline-block;
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+.blockE {
+    background-color: #FF00FF;
+    display: inline-block;
+    float: right;
+    height: 50%;
+    width: 50%;
+}
+
+/*-----------三段目--------------*/
+.dritte {
+    height: 25%;
+    width: 100%;
+}
+.blockF {
+    background-color: white;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+.blockG {
+    background-color: #00FFFF;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 80%;
+}
